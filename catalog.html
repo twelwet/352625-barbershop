@@ -3,10 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>Средства для ухода</title>
+    <link href="css/style.css" rel="stylesheet" type=" text/css">
   </head>
   <body>
     <header class="main-header">
-      <div class="container">
+      <div class="container clearfix">
         <div class="logo">
           <a href="#"><img src="img/logo.png" width="111" height="24" alt="Логотип"></a>
         </div>
@@ -34,25 +35,25 @@
         </div>
       </div>
     </header>
-    <main class="container">
-      <h1>Средства для ухода</h1>
-      <ul class="bread-crumbs">
-        <li>
-          <a href="#">Главная</a>
-        </li>
-        <li>
-          <a href="#">Магазин</a>
-        </li>
-        <li>
-          <a>Средства для ухода</a>
-        </li>
-      </ul>
+    <main class="container clearfix">
+      <div class="page-title">
+        <h1>Средства для ухода</h1>
+        <ul class="bread-crumbs">
+          <li>
+            <a href="#">Главная</a>
+          </li>
+          <li>
+            <a href="#">Магазин</a>
+          </li>
+          <li>
+            <a>Средства для ухода</a>
+          </li>
+        </ul>
+      </div>
       <div class="filter">
         <form action="#" method="get">
           <span>Производители:</span>
           <ul class="filter-manufacturer">
-          <!--Чекбоксы и радиобаттоны не стал экспортировать,
-          планирую реализовать с помощью CSS-->
             <li>
               <label>
                 <input type="checkbox" name="baxter-of-california">
@@ -214,7 +215,7 @@
       </div>
     </main>
     <footer class="main-footer">
-      <div class="container">
+      <div class="container clearfix">
         <section class="footer-contacts">
           Барбершоп «Бородинский»<br>
           Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
